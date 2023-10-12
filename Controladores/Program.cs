@@ -2,18 +2,33 @@
 
 namespace CalculadoraAritmetica.Controladores
 {
+    /// <summary>
+    /// Clase principal de la aplicación
+    /// 10102023 - jrt
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Método de entrada de la aplicación
+        /// 10102023 - jrt
+        /// </summary>
+        /// <param name="args"></param>
 
         static void Main(String[] args)
         {
+        /// Método Main, nos indica la logica, es el más importante.
+        /// 10102023 - jrt 
+        /// 
 
+        // variable que controla la entrada y salida del bucle while
             bool cerrarMenu = false;
-
+        // se ejecuta el buble hasta que la opción cerrarMenu sea igual a 'true'    
             while (!cerrarMenu)
             {
 
                 MenuInterfaz mi = new MenuImplementacion();
+
+         // tipo de variable que contendra la opción que seleccione el usuario
                 int opcion = mi.mostrarMenuDeOperacionesYSeleccion();
 
                 int primerNumero;

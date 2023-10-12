@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace CalculadoraAritmetica.Servicios
 {
+    /// <summary>
+    /// clase que implementa la interfaz del menu
+    /// 12102023 - jrt
+    /// </summary>
     internal class MenuImplementacion : MenuInterfaz
     {
         public int mostrarMenuDeOperacionesYSeleccion()
